@@ -1,0 +1,52 @@
+
+body {
+    background-color: #eee;
+    font-family: Arial;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.formulario, .destaque, .historico {
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+input {
+    padding: 8px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.erro {
+    color: red;
+}
+
+.btn-reset {
+    background-color: darkred;
+}

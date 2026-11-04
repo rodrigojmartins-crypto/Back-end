@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Calculadora</h1>
+
+    <form action="potencia.php" method="post" id="potencia">
+        <h2>Calcular Potência</h2>
+        <label>Digite a base:</label>
+        <input type="number" name="base" required>
+
+        <label>Digite o expoente:</label>
+        <input type="number" name="expoente" required>
+
+        <input type="submit" value="Calcular Potência">
+    </form>
+
+    <form action="raiz_quadrada.php" method="post" id="raiz">
+        <h2>Raiz Quadrada</h2>
+        <label>Digite um número:</label>
+        <input type="number" name="numero" min="0" required>
+        <input type="submit" value="Calcular Raiz">
+    </form>
+
+    <form action="valor_absoluto.php" method="post" id="absoluto">
+        <h2>Valor Absoluto</h2>
+        <label>Digite um número:</label>
+        <input type="number" name="numero" required>
+        <input type="submit" value="Calcular Valor Absoluto">
+    </form>
+
+    <form action="maior_menor.php" method="post" id="maior-menor">
+        <h2>Maior e Menor Valor</h2>
+
+        <label>Primeiro número:</label>
+        <input type="number" name="numero1" required><br>
+
+        <label>Segundo número:</label>
+        <input type="number" name="numero2" required><br>
+
+        <label>Terceiro número:</label>
+        <input type="number" name="numero3" required><br>
+
+        <label>Quarto número:</label>
+        <input type="number" name="numero4" required><br>
+
+        <label>Quinto número:</label>
+        <input type="number" name="numero5" required><br>
+
+        <input type="submit" value="Calcular">
+    </form>
+
+    <form action="arredondamento.php" method="post" id="arredondamento">
+        <h2>Arredondamento</h2>
+        <label>Digite um número:</label>
+        <input type="number" name="numero" step="any" required>
+        <input type="submit" value="Arredondar">
+    </form>
+
+    <form action="numero_aleatorio.php" method="post" id="aleatorio">
+        <h2>Número Aleatório</h2>
+        <input type="submit" value="Gerar Número">
+    </form>
+
+</body>
+</html>
